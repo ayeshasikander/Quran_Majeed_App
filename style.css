@@ -100,13 +100,17 @@ body {
     box-shadow: 0 0 5px rgba(10, 10, 10, 0.521);
     display: grid;
     place-items: center;
-    /* color: white; */
     color: black;
     font-size: 20px;
     font-weight: 600;
 }
 
 .surahs>div:hover {
+    color: #f08335;
+    background: linear-gradient( #000000, #161616);
+}
+
+.surahs>div:active {
     color: #f08335;
     background: linear-gradient( #000000, #161616);
 }

@@ -4,6 +4,7 @@ let audio = document.querySelector(".audioPlayer"),
     play = document.querySelector(".play"),
     next = document.querySelector(".next"),
     prev = document.querySelector(".prev");
+
 getSurahs();
 allSurahs = document.querySelectorAll(".surahs div")
 function getSurahs() {
@@ -68,7 +69,7 @@ function getSurahs() {
                             });
                             let isplay = false;
                             playpause();
-                           
+
                             function playpause() {
                                 if (isplay) {
                                     audio.pause();
@@ -84,6 +85,7 @@ function getSurahs() {
                             }
                             play.addEventListener("click", playpause);
 
+
                             function updateAyah(index) {
                                 audio.src = AyahAudios[index];
                                 ayah.innerHTML = AyahText[index];
@@ -91,7 +93,7 @@ function getSurahs() {
                                     console.error("Error playing audio:", error);
                                 });
                             }
-
+                        
                         })
                 })
             })
