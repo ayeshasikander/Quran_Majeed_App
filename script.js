@@ -7,6 +7,7 @@ let audio = document.querySelector(".audioPlayer"),
 
 getSurahs();
 allSurahs = document.querySelectorAll(".surahs div")
+
 function getSurahs() {
     fetch("https://api.quran.gading.dev/surah")
         .then((response) => response.json())
