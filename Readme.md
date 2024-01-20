@@ -2,6 +2,8 @@
 
 Welcome to the Quran Majeed Web App, a simple and responsive web application that lets you connect with the Holy Quran. 📖 This project, crafted with ❤️ using HTML, CSS, and JavaScript, harnesses the power of a Quran API to bring you a rich Quranic experience.
 
+[Live Link](https://quran-ul-kareem.netlify.app/)
+
 ## Features 🚀
 
 - **Listen to Quranic Surahs 🎧:** Immerse yourself in the beautiful recitation of all Quranic Surahs, creating a spiritually uplifting experience.
